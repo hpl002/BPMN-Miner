@@ -53,3 +53,8 @@ java -jar BPMNMiner.jar
 
 2.0 - Structured Miner incorporated, for maximally-structuring the output model  
 1.0 - initial version
+
+## Credits:
+[Raffaele Conforti, PhD @ github](https://github.com/raffaeleconforti)  
+[Apromore @ github](https://github.com/apromore)  
+[Original source file @ Apromore Research lab](http://apromore.org/wp-content/uploads/2016/10/BPMNMiner.zip)  
