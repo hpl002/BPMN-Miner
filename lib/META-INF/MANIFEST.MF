@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Class-Path: lib/japura-1.12.3.jar lib/Log.jar lib/BPMN.jar lib/ProM5.j
+ ar lib/Widgets.jar lib/GraphViz.jar lib/ILPMiner.jar lib/PetriNets.ja
+ r lib/AlphaMiner.jar lib/BasicUtils.jar lib/Properties.jar lib/Apache
+ Utils.jar lib/ProcessTree.jar lib/InductiveMiner.jar lib/HeuristicsMi
+ ner.jar lib/LogAbstractions.jar lib/oplall.jar lib/OpenXES.jar lib/Op
+ enXES-XStream.jar lib/opencsv-2.4-patched.jar lib/javacsv.jar lib/jma
+ thplot.jar lib/javacsv-2.1.jar lib/trove-3.0.3.jar lib/javailp-1.2a.j
+ ar lib/jbpt-0.2.393.jar lib/jgrapht-jdk1.6.jar lib/ujmp-complete-0.2.
+ 5.jar lib/grappa.jar lib/exp4j-0.3.8.jar lib/kxml2-2.2.3.jar lib/fodi
+ na-2013-01-02.jar lib/jgoodies-forms-1.4.1.jar lib/jgoodies-common-1.
+ 2.0.jar lib/nikefsmonitor-20130503.jar lib/axis.jar lib/colt.jar lib/
+ Spex.jar lib/weka.jar lib/jargs.jar lib/jgraph.jar lib/Uitopia.jar li
+ b/flanagan.jar lib/jdom-1.0.jar lib/bsh-2.0b4.jar lib/jlfgr-1_0.jar l
+ ib/simmetrics.jar lib/jung-io-2.0.jar lib/junit-3.8.2.jar lib/junit-4
+ .8.1.jar lib/ProM-Models.jar lib/xpp3-1.1.4c.jar lib/guava-16.0.1.jar
+  lib/jung-api-2.0.jar lib/ProM-Plugins.jar lib/ProM-Contexts.jar lib/
+ xstream-1.3.1.jar lib/jcommon-1.0.16.jar lib/ProM-Framework.jar lib/j
+ as-plotter-2.2.jar lib/commons-math-3.1.jar lib/freehep-io-2.0.2.jar 
+ lib/slickerbox1.0rc1.jar lib/UITopiaResources.jar lib/freehep-xml-2.1
+ .1.jar lib/jfreechart-1.0.13.jar lib/jfreechart-1.0.14.jar lib/freehe
+ p-util-2.0.2.jar lib/freehep-swing-2.0.3.jar lib/jung-algorithms-2.0.
+ jar lib/jung-graph-impl-2.0.jar lib/commons-compress-1.0.jar lib/free
+ hep-export-2.1.1.jar lib/TableLayout-20050920.jar lib/jung-visualizat
+ ion-2.0.jar lib/collections-generic-4.01.jar lib/freehep-graphics2d-2
+ .1.1.jar lib/freehep-graphicsio-2.1.1.jar lib/freehep-graphicsio-ps-2
+ .1.1.jar lib/FilterableSortableTablePanel.jar lib/freehep-graphicsio-
+ emf-2.1.1.jar lib/freehep-graphicsio-pdf-2.1.1.jar lib/freehep-graphi
+ csio-svg-2.1.1.jar lib/freehep-graphicsio-swf-2.1.1.jar lib/freehep-g
+ raphicsio-java-2.1.1.jar lib/freehep-graphicsio-tests-2.1.1.jar lib/o
+ penide-lookup-1.9-patched-1.0.jar lib/ProM.jar lib/ProMmodels.jar lib
+ /ProMplugins.jar lib/ant-1.9.4.jar lib/log4j-1.2.15.jar lib/commons-i
+ o-2.4.jar lib/commons-cli-1.2.jar lib/commons-lang3-3.1.jar lib/compr
+ ess-lzf-1.0.3.jar lib/opencsv-2.4-patched.jar lib/commons-digester-2.
+ 1.jar lib/commons-logging-1.1.2.jar lib/java-merge-sort-1.0.0.jar lib
+ /uncommons-maths-1.2.3.jar lib/commons-beanutils-1.8.3.jar lib/junive
+ rsalchardet-1.0.3.jar lib/commons-collections-3.2.1.jar
+Main-Class: org.processmining.plugins.bpmn.miner.BPMNMinerPlugin
+

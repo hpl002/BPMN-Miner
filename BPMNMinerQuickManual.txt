@@ -1,0 +1,49 @@
+------------------------
+BPMN Miner v2.0
+------------------------
+
+Requirements: Java 7 or above
+
+What it does:
+
+BPMN Miner is a tool discovering maximally-structured, hierarchical BPMN models containing subprocesses from an event log.
+
+How:
+
+BPMN Miner implements the technique described in the following papers:
+
+Raffaele Conforti, Marlon Dumas, Luciano García-Bañuelos, Marcello La Rosa: BPMN Miner: Automated discovery of BPMN process models with hierarchical structure. Information Systems 56, 2016.
+
+Raffaele Conforti, Marlon Dumas, Luciano García-Bañuelos, Marcello La Rosa: Beyond Tasks and Gateways: Discovering BPMN Models with Subprocesses, Boundary Events and Activity Markers. BPM 2014, Springer LNCS, 2014.
+
+Adriano Augusto, Raffaele Conforti, Marlon Dumas, Marcello La Rosa, Giorgio Bruno. Automated Discovery of Structured Process Models: Discover Structured vs. Discover and Structure. ER 2016, Springer LNCS, 2016.
+
+
+USAGE:
+java -jar BPMNMiner.jar
+
+	Input: 	None.
+	Output: The discovered BPMN model.
+	
+Once started the algorithm will ask for several inputs:
+
+1)  The location of the log file, e.g. "C:\log.xes"
+2)  If you want to order the events inside each trace of the log based on their time stamp.
+3)  The flat process mining algorithm, e.g. "Heuristic Miner ProM6".
+4)  If you want to use different parameters from the default parameters.
+4a) The tolerance value for identifying an interrupting event, value between 0 and 1. Default value 0.0.
+4b) The number of times a subprocess/activity is required to happen in parallel in order to be considered multi instance.
+    The value expressed in percentage over the total number of occurrences of the subprocess/activity is a value between 0 and 1. 
+    Default value 0.0.
+4c) The tolerance value for identifying a multi instance, a value between 0 and 1. Default value 0.5.
+4d) The number of times a subprocess/activity is interrupted after an X amount of time required in order to identify a timer event.
+    The value expressed in percentage over the total number of occurrences of the subprocess/activity is a value between 0 and 1. 
+    Default value 0.0.
+4e) The tolerance value for identifying a timer event, a value between 0 and 1. Default value 0.0.
+4f) The noise threshold of TANE for the identification of primary keys, a value between 0 and 1. Default value 0.3.
+5)  The algorithm for the detection of primary keys, i.e. normal (Spider) or noise tolerant (TANE)
+
+Release notes:
+
+2.0 - Structured Miner incorporated, for maximally-structuring the output model	
+1.0 - initial version
