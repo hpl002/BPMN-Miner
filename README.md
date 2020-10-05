@@ -1,5 +1,3 @@
-# BPMN-Miner
-
 # BPMN Miner v2.0
 
 > Requirements: Java 7 or above
